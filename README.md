@@ -1,7 +1,7 @@
 # CareLoopAI - Clinic Chatbot
 
 <p align="center">
-  <img width="250" height="250" alt="careloop-ai" src="https://github.com/user-attachments/assets/4f45d36a-0302-4bdd-a3a4-636ec13e0030" />
+  <img width="500" height="500" style="border-radius: 15px;" alt="careloop-ai" src="https://github.com/user-attachments/assets/4f45d36a-0302-4bdd-a3a4-636ec13e0030" />
 </p>
 
 
