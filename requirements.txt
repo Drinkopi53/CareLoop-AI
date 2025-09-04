@@ -1,0 +1,26 @@
+# CareLoopAI Clinic Chatbot Requirements
+
+# Core dependencies
+rasa>=3.0.0
+rasa-sdk>=3.0.0
+
+# Image processing
+Pillow>=9.0.0
+
+# Data handling
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Machine learning (for future expansion)
+scikit-learn>=1.0.0
+
+# Web framework (for API deployment)
+flask>=2.0.0
+
+# JSON handling
+json5>=0.9.0
+
+# Development tools
+pytest>=6.0.0
+black>=21.0.0
+flake8>=3.9.0

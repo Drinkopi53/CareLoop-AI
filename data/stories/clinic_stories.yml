@@ -1,0 +1,74 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: patient registration
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inform_name
+  - slot_was_set:
+    - patient_name: Budi
+  - action: utter_ask_symptoms
+
+- story: symptom reporting
+  steps:
+  - intent: inform_symptoms
+  - action: action_generate_treatment_plan
+  - action: utter_provide_treatment
+
+- story: daily checkin
+  steps:
+  - intent: daily_checkin
+  - action: action_revise_treatment_plan
+  - action: utter_followup_not_needed
+
+- story: request appointment
+  steps:
+  - intent: request_appointment
+  - action: action_schedule_appointment
+  - action: utter_appointment_scheduled
+
+- story: ask treatment
+  steps:
+  - intent: ask_treatment
+  - action: action_revise_treatment_plan
+  - action: utter_provide_treatment
+
+- story: ask followup
+  steps:
+  - intent: ask_followup
+  - action: action_revise_treatment_plan
+  - action: utter_followup_not_needed
+
+- story: bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot

@@ -1,0 +1,87 @@
+{
+  "Budi Santoso": {
+    "personal_info": {
+      "name": "Budi Santoso",
+      "phone": "08123456789",
+      "email": "",
+      "registration_date": "2025-09-04T23:45:44.657907"
+    },
+    "symptoms_history": [
+      {
+        "date": "2025-09-04T23:45:44.659473",
+        "symptoms": [
+          "demam",
+          "batuk",
+          "sakit kepala"
+        ],
+        "body_part": "kepala",
+        "severity": "sedang"
+      },
+      {
+        "date": "2025-09-04T23:45:44.661495",
+        "symptoms": [
+          "kemerahan",
+          "pembengkakan"
+        ],
+        "body_part": "area_terdampak",
+        "severity": "sedang"
+      }
+    ],
+    "treatment_plans": [
+      {
+        "date": "2025-09-04T23:45:44.659473",
+        "plan": "Rencana pengobatan untuk Budi Santoso:\n1. Istirahat yang cukup (minimal 8 jam tidur per hari)\n2. Minum air putih minimal 2-3 liter per hari\n3. Konsumsi paracetamol jika suhu tubuh >38.5\u00b0C\n4. Gunakan obat batuk sesuai anjuran apoteker\n5. Perbanyak makanan bergizi untuk meningkatkan imun\n6. Kompres hangat pada area dahi dan pelipis\n7. Hindari paparan cahaya terang dan kebisingan\n\nUmum:\n- Jangan memaksakan aktivitas berat\n- Monitor kondisi setiap hari dan laporkan perubahan\n- Jika gejala memburuk dalam 2-3 hari, segera kunjungi klinik\n",
+        "based_on_symptoms": [
+          "demam",
+          "batuk",
+          "sakit kepala"
+        ],
+        "body_part": "kepala",
+        "severity": "sedang"
+      },
+      {
+        "date": "2025-09-04T23:45:44.660480",
+        "plan": "Rencana pengobatan untuk Budi Santoso:\n1. Istirahat yang cukup (minimal 8 jam tidur per hari)\n2. Minum air putih minimal 2-3 liter per hari\n3. Konsumsi paracetamol jika suhu tubuh >38.5\u00b0C\n4. Gunakan obat batuk sesuai anjuran apoteker\n5. Perbanyak makanan bergizi untuk meningkatkan imun\n6. Kompres hangat pada area dahi dan pelipis\n7. Hindari paparan cahaya terang dan kebisingan\n\nUmum:\n- Jangan memaksakan aktivitas berat\n- Monitor kondisi setiap hari dan laporkan perubahan\n- Jika gejala memburuk dalam 2-3 hari, segera kunjungi klinik\n\n\nUpdate: Kondisi stabil, lanjutkan pengobatan.",
+        "based_on_symptoms": [
+          "batuk membaik",
+          "masih demam"
+        ],
+        "body_part": "dada",
+        "severity": "sedang",
+        "revision_of": 0
+      },
+      {
+        "date": "2025-09-04T23:45:44.660988",
+        "plan": "Rencana pengobatan untuk Budi Santoso:\n1. Istirahat yang cukup (minimal 8 jam tidur per hari)\n2. Minum air putih minimal 2-3 liter per hari\n3. Konsumsi paracetamol jika suhu tubuh >38.5\u00b0C\n4. Gunakan obat batuk sesuai anjuran apoteker\n5. Perbanyak makanan bergizi untuk meningkatkan imun\n6. Kompres hangat pada area dahi dan pelipis\n7. Hindari paparan cahaya terang dan kebisingan\n\nUmum:\n- Jangan memaksakan aktivitas berat\n- Monitor kondisi setiap hari dan laporkan perubahan\n- Jika gejala memburuk dalam 2-3 hari, segera kunjungi klinik\n\n\nUpdate: Kondisi stabil, lanjutkan pengobatan.\n\nUpdate: Kondisi membaik, lanjutkan pengobatan sesuai rencana.",
+        "based_on_symptoms": [
+          "membaik",
+          "tidak demam"
+        ],
+        "body_part": "umum",
+        "severity": "ringan",
+        "revision_of": 1
+      }
+    ],
+    "checkin_history": [
+      {
+        "date": "2025-09-04T23:45:44.659473",
+        "symptoms": [
+          "batuk membaik",
+          "masih demam"
+        ],
+        "body_part": "dada",
+        "severity": "sedang"
+      },
+      {
+        "date": "2025-09-04T23:45:44.660480",
+        "symptoms": [
+          "membaik",
+          "tidak demam"
+        ],
+        "body_part": "umum",
+        "severity": "ringan"
+      }
+    ],
+    "appointments": []
+  }
+}

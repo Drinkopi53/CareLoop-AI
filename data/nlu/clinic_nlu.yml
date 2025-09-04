@@ -1,0 +1,187 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - halo
+    - hai
+    - halo bot
+    - hai bot
+    - selamat pagi
+    - selamat siang
+    - selamat sore
+    - selamat malam
+    - oke
+    - hei
+    - hey
+    - hello
+    - hi
+
+- intent: goodbye
+  examples: |
+    - bye
+    - selamat tinggal
+    - sampai jumpa
+    - sampai nanti
+    - terima kasih
+    - thanks
+    - thank you
+    - tidak, terima kasih
+    - itu saja
+
+- intent: affirm
+  examples: |
+    - ya
+    - iya
+    - benar
+    - betul
+    - setuju
+    - ok
+    - oke
+    - tentu
+    - yups
+    - yes
+    - yeah
+    - yea
+    - siap
+
+- intent: deny
+  examples: |
+    - tidak
+    - nggak
+    - tidak sama sekali
+    - belum
+    - belum sama sekali
+    - belum ada perubahan
+    - tidak ada perubahan
+    - tidak ada yang berubah
+    - tidak, terima kasih
+    - tidak perlu
+
+- intent: mood_great
+  examples: |
+    - sempurna
+    - sangat baik
+    - luar biasa
+    - merasa hebat
+    - merasa baik
+    - merasa baik sekali
+    - baik
+    - bagus sekali
+    - bagus
+    - hebat
+    - luar biasa
+    - saya merasa sangat baik
+    - saya merasa baik
+    - saya baik-baik saja
+    - saya sehat
+
+- intent: mood_unhappy
+  examples: |
+    - sedih
+    - sangat sedih
+    - tidak bahagia
+    - tidak enak
+    - tidak enak badan
+    - merasa tidak sehat
+    - merasa sakit
+    - sakit
+    - tidak sehat
+    - lemas
+    - pusing
+    - mual
+    - muntah
+    - demam
+    - batuk
+    - pilek
+    - flu
+    - nyeri
+    - sakit kepala
+    - sakit perut
+    - sakit dada
+
+- intent: bot_challenge
+  examples: |
+    - apakah kamu bot?
+    - apakah kamu manusia?
+    - saya berbicara dengan manusia atau bot?
+    - saya berbicara dengan bot?
+    - apakah ini adalah bot?
+
+- intent: inform_name
+  examples: |
+    - nama saya [Budi](name)
+    - saya [Ani](name)
+    - [Candra](name)
+    - panggil saya [Dewi](name)
+    - nama saya [Eko](name)
+    - [Fitri](name) namaku
+    - aku [Gani](name)
+    - perkenalkan, saya [Hadi](name)
+    - saya [Indah](name) Putri
+    - [Joko](name) Wibowo nama saya
+
+- intent: inform_symptoms
+  examples: |
+    - saya merasa [pusing](symptom) dan [mual](symptom)
+    - [sakit kepala](symptom) parah
+    - [demam](symptom) dan [batuk](symptom)
+    - saya mengalami [diare](symptom)
+    - [nyeri perut](symptom) sejak kemarin
+    - [flu](symptom) biasa
+    - [sakit tenggorokan](symptom) dan [pilek](symptom)
+    - [muntah](symptom) terus menerus
+    - [sakit dada](symptom) ringan
+    - saya merasa [lemas](symptom) dan [demam](symptom)
+    - [batuk](symptom) berdahak
+    - [sakit gigi](symptom) sebelah kiri
+    - [alergi](symptom) ringan
+    - [gatal-gatal](symptom) di kulit
+
+- intent: inform_photo
+  examples: |
+    - saya kirim foto gejala saya
+    - ini foto kondisi saya
+    - lihat foto ini
+    - foto gejala
+    - saya lampirkan foto
+
+- intent: ask_treatment
+  examples: |
+    - apa rencana pengobatan saya?
+    - beri tahu saya rencana pengobatan
+    - bagaimana cara mengobati ini?
+    - apa yang harus saya lakukan?
+    - beri saya rencana pengobatan
+    - apa obatnya?
+
+- intent: ask_followup
+  examples: |
+    - apakah saya perlu kontrol ulang?
+    - kapan saya harus datang lagi?
+    - perlu kunjungan ulang?
+    - apakah saya harus ke klinik lagi?
+    - kapan kontrol berikutnya?
+    - harus kontrol kapan?
+
+- intent: daily_checkin
+  examples: |
+    - kondisi saya hari ini lebih baik
+    - gejala saya berkurang
+    - hari ini saya merasa lebih buruk
+    - tidak ada perubahan
+    - gejala masih sama
+    - kondisi saya membaik
+    - gejalanya bertambah parah
+    - hari ini lebih parah
+    - lebih baik dari kemarin
+
+- intent: request_appointment
+  examples: |
+    - saya ingin buat janji
+    - jadwalkan kunjungan
+    - buat appointment
+    - saya perlu kontrol langsung
+    - janji dengan dokter
+    - buat janji klinik
+    - kunjungan langsung diperlukan

@@ -1,0 +1,25 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Daily checkin
+  steps:
+  - intent: daily_checkin
+  - action: action_revise_treatment_plan
+  - action: utter_followup_not_needed
+
+- rule: Handle photo submission
+  steps:
+  - intent: inform_photo
+  - action: action_process_symptom_photo
+  - action: utter_provide_treatment
