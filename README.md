@@ -1,6 +1,9 @@
 # CareLoopAI - Clinic Chatbot
 
-<img width="500" height="500" alt="careloop-ai" src="https://github.com/user-attachments/assets/4f45d36a-0302-4bdd-a3a4-636ec13e0030" />
+<p align="center">
+  <img width="250" height="250" alt="careloop-ai" src="https://github.com/user-attachments/assets/4f45d36a-0302-4bdd-a3a4-636ec13e0030" />
+</p>
+
 
 CareLoopAI adalah chatbot berbasis Rasa (Python) yang dirancang untuk klinik kecil. Sistem ini tidak hanya melakukan triase awal, tetapi juga menciptakan "perulangan perawatan" otomatis - pasien menerima rencana pengobatan yang direvisi setiap hari berdasarkan gejala yang mereka foto atau ceritakan, mengurangi kunjungan ulang yang tidak perlu.
 
